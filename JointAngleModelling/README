@@ -1,0 +1,13 @@
+This folder includes the codes needed to create models in joint input space and torque output space.
+
+The instructions to create a model are found in the instructionsForCreatingModels pdf. 
+
+However, those instructions require data which is not shared on gitHub. For this reason, a sampleData.mat file was created. To use this file, run the computemodels_sampleData.m file. sampleData.mat is a simplified set of fake data similar to that which would come out of getactive.m and be used in computemodels.m.
+
+NOTES:
+*** You must add the modelsHelper folder to your path.
+*** You must also add the gpml toolbox to your MATLAB to run these codes. (http://www.gaussianprocess.org/gpml/code/matlab/doc/)
+
+NOTE FOR OWNER OF CODE:
+These current versions of getActive, smoothmotion, and compute_models do not properly take the mean of the final seconds. They work with all the data instead of only the end data. This needs to be updated.
+
